@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Notifications page</title>
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="./assets/fonts/all.min.css" />
+    <!-- WOW Animation CSS -->
+    <link rel="stylesheet" href="./assets/wow/animate.min.css" />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-between top-bar mt-4">
+        <div class="col-5 main">
+          Notifications <span class="counter">0</span>
+        </div>
+        <div class="col-5 main-btn text-center">Mark all as read</div>
+      </div>
+      <div class="container-fluid">
+        <div class="row notification mb-2 px-sm-3 px-1 unread">
+          <div class="col-lg-1 col-2 px-lg-3 px-0 pt-sm-0 pt-2">
+            <img
+              src="./assets/images/avatar-mark-webber.webp"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-11 col-10 notifi-text px-1">
+            <span class="user">Mark Webber</span>
+            reacted to your recent post
+            <span class="event">My first tournament today!</span>
+            <span class="unread-span none"
+              ><i class="fa-solid fa-circle"></i
+            ></span>
+            <span class="date">1m ago</span>
+          </div>
+        </div>
+        <div class="row notification mb-2 px-sm-3 px-1 unread">
+          <div class="col-lg-1 col-2 px-lg-3 px-0 pt-sm-0 pt-2">
+            <img
+              src="./assets/images/avatar-angela-gray.webp"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-11 col-10 notifi-text px-1">
+            <span class="user">Angela Gray</span>
+            followed you
+            <span class="unread-span none"
+              ><i class="fa-solid fa-circle"></i
+            ></span>
+            <span class="date">5m ago</span>
+          </div>
+        </div>
+        <div class="row notification mb-2 px-sm-3 px-1 unread">
+          <div class="col-lg-1 col-2 px-lg-3 px-0 pt-sm-0 pt-2">
+            <img
+              src="./assets/images/avatar-jacob-thompson.webp"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-11 col-10 notifi-text px-1">
+            <span class="user">Jacob Thompson</span>
+            has joined your group
+            <span class="event">Chess Club</span>
+            <span class="unread-span none"
+              ><i class="fa-solid fa-circle"></i
+            ></span>
+            <span class="date">1 day ago</span>
+          </div>
+        </div>
+        <div class="row notification mb-2 px-sm-3 px-1">
+          <div class="col-lg-1 col-2 px-lg-3 px-0 pt-sm-0 pt-2">
+            <img
+              src="./assets/images/avatar-rizky-hasanuddin.webp"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-11 col-10 notifi-text px-1">
+            <span class="user">Rizky Hasanuddin</span>
+            sent you a private message
+            <span class="unread-span none"
+              ><i class="fa-solid fa-circle"></i
+            ></span>
+            <span class="date">5 days ago</span>
+            <p>
+              Hello, thanks for setting up the Chess Club. I've been a member
+              for a few weeks now and I'm already having lots of fun and
+              improving my game.
+            </p>
+          </div>
+        </div>
+        <div class="row notification mb-2 px-sm-3 px-1">
+          <div class="col-lg-1 col-2 px-lg-3 px-0 pt-sm-0 pt-2">
+            <img
+              src="./assets/images/avatar-kimberly-smith.webp"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-10 col-8 notifi-text px-1">
+            <span class="user">Kimberly Smith</span>
+            commented on your picture
+            <span class="unread-span none"
+              ><i class="fa-solid fa-circle"></i
+            ></span>
+            <span class="date">1 week ago</span>
+          </div>
+          <div class="col-lg-1 col-2 notifi-img px-md-3 pt-3 px-0">
+            <img
+              src="./assets/images/image-chess.webp"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="row notification mb-2 px-sm-3 px-1">
+          <div class="col-lg-1 col-2 px-lg-3 px-0 pt-sm-0 pt-2">
+            <img
+              src="./assets/images/avatar-nathan-peterson.webp"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-11 col-10 notifi-text px-1">
+            <span class="user">Nathan Peterson</span>
+            reacted to your recent post
+            <span class="event"
+              >5 end-game strategies to increase your win rate</span
+            >
+            <span class="unread-span none"
+              ><i class="fa-solid fa-circle"></i
+            ></span>
+            <span class="date">2 weeks ago</span>
+          </div>
+        </div>
+        <div class="row notification mb-2 px-sm-3 px-1">
+          <div class="col-lg-1 col-2 px-lg-3 px-0 pt-sm-0 pt-2">
+            <img
+              src="./assets/images/avatar-anna-kim.webp"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-11 col-10 notifi-text px-1">
+            <span class="user">Anna Kim</span>
+            left the group
+            <span class="event">Chess Club</span>
+            <span class="unread-span none"
+              ><i class="fa-solid fa-circle"></i
+            ></span>
+            <span class="date">2 weeks ago</span>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-around arrow">
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+    </div>
+
+    <div class="attribution mt-2">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/Ibrahim-MohamedH"
+        >Ibrahim Mohamed Hussein</a
+      >.
+    </div>
+
+    <!-- Jquery file -->
+    <script src="./assets/js/jquery-3.6.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="./assets/bootstrap/popper.min.js"></script>
+    <script src="./assets/bootstrap/bootstrap.min.js"></script>
+    <!-- WOW Animation JS -->
+    <script src="./assets/wow/wow.min.js"></script>
+    <!-- Main JS -->
+    <script src="./js/main.js"></script>
+    <!--  -->
+  </body>
+</html>

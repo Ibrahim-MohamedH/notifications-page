@@ -1,0 +1,113 @@
+* {
+  scroll-behavior: smooth;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+body {
+  background-color: hsl(210, 60%, 98%);
+}
+.container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+}
+.container .top-bar {
+  padding: 10px 16px;
+}
+.container .top-bar .main {
+  font-size: 28px;
+  font-weight: bold;
+}
+.container .top-bar .main .counter {
+  padding: 0px 8px;
+  border-radius: 5px;
+  background-color: hsl(219, 85%, 26%);
+  color: white;
+  font-size: 18px;
+}
+.container .top-bar .main-btn {
+  padding: 10px 16px;
+  cursor: pointer;
+  font-weight: bold;
+  color: hsl(219, 12%, 42%);
+}
+.container .top-bar .main-btn:hover {
+  color: hsl(219, 85%, 26%);
+}
+.unread {
+  background-color: hsl(210, 60%, 98%);
+  cursor: pointer;
+}
+.container-fluid {
+  height: 0px;
+  overflow: hidden;
+  transition: all 1s;
+}
+.container .container-fluid .notification {
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+.container .container-fluid .notification .notifi-text {
+  padding: 10px 0px;
+  color: hsl(219, 12%, 42%);
+}
+.container .container-fluid .notification .notifi-text .user {
+  font-weight: 800;
+  cursor: pointer;
+  color: black;
+}
+.container .container-fluid .notification .notifi-text .user:hover {
+  color: hsl(219, 85%, 26%);
+}
+.container .container-fluid .notification .notifi-text .event {
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.container .container-fluid .notification .notifi-text .event:hover {
+  color: hsl(219, 85%, 26%);
+}
+.container .container-fluid .notification .notifi-text .unread-span {
+  padding: 0px 6px;
+  color: hsl(1, 90%, 64%);
+  font-size: 10px;
+}
+.container .container-fluid .notification .notifi-text .date {
+  display: block;
+  color: #5c6069b9;
+}
+.container .container-fluid .notification .notifi-text p {
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  cursor: pointer;
+}
+.container .container-fluid .notification .notifi-text p:hover {
+  background-color: rgba(37, 97, 224, 0.103);
+}
+.container .container-fluid .notification .notifi-img img {
+  cursor: pointer;
+}
+
+.container .container-fluid .notification .notifi-img img:hover {
+  box-shadow: 0px 0px 10px rgba(37, 97, 224, 0.5);
+  border-radius: 10px;
+}
+.container .arrow i {
+  font-size: 28px;
+  color: hsl(219, 85%, 26%);
+  transition: all 1s;
+  cursor: pointer;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.none {
+  display: none;
+}
+.rotation {
+  transform: rotate(180deg);
+}
