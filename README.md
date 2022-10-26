@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://https://Ibrahim-MohamedH.github.io/notifications-page)
+- Solution URL: [Front-end mentor solution](https://www.frontendmentor.io/solutions/responsive-notification-bar-using-bootstrap-and-jquery-PLRxfFYrYA)
+- Live Site URL: [Notification page](https://ibrahim-mohamedh.github.io/notifications-page/)
 
 ## My process
 
@@ -86,7 +86,6 @@ notification.click((e) => {
 ### Useful resources
 
 - [Jquery documentation](https://api.jquery.com/hasClass/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
