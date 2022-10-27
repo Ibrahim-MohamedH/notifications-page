@@ -85,7 +85,7 @@ notification.click((e) => {
 
 ### Useful resources
 
-- [Jquery documentation](https://api.jquery.com/hasClass/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Jquery documentation](https://api.jquery.com/hasClass/) - This helped me for to understand more Jquery's functions.
 
 ## Author
 
